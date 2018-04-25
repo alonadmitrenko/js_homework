@@ -1,7 +1,7 @@
 var date = prompt('Enter the date','17:00');
-do {
+if (data !== 'number') {
    data = prompt('Enter the date','17:00');
-} while (isNaN(data));
+} else { isNaN(data);}
 var name = prompt('Enter the name','Petro');
 
 var city = prompt('Enter the city','Milan');
