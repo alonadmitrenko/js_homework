@@ -1,5 +1,5 @@
 while(true) {
-var date = prompt('Enter the date','17:00');
+var date = prompt('Enter the date','today 17:00');
 var name = prompt ('Enter the name','Petro');
 var city = prompt('Enter the city','Milan');
 var regExp_Name_City = /\D/;
