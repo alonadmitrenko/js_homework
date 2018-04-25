@@ -7,5 +7,6 @@ var regExp_Name_City = /\D/;
 		alert("Try again");
 	} else {
 		alert(name + ' has a meeting ' + date +  ' somewhere in ' + city + '.');
+		break;
 	}
 }
