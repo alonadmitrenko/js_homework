@@ -1,5 +1,5 @@
 var date = prompt('Enter the date','17:00');
-if (date !== 'number') {
+if (date == 'string') {
   prompt('Enter the date again','17:00'); 
 } 
 var name = prompt('Enter the name','Petro');
