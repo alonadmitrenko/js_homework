@@ -1,6 +1,6 @@
 function validate(properties, values) {
     for (i = 0; i < properties.length; i++) {
-        if (values[properties[i]] == undefined) {
+        if (!(values[properties[i]])) {
             throw new Error("Propetry " + properties[i] + " is undefined");
         }
     }
